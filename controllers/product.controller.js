@@ -5,6 +5,8 @@ exports.test = function (req, res){
     res.send('Greetings from the Test controller!');
 };
 
+
+//export the create function to handle post requests
 exports.product_create = function (req, res) {
     let product = new Product(
         {
@@ -19,3 +21,11 @@ exports.product_create = function (req, res) {
         res.send('Product Created successfully')
     })
 };
+
+
+exports.product_details=function(req, res){
+    Product.findById(req.params.id, function(err, product){
+        if (err) return next(err);
+        res.send(product);
+    })
+}
