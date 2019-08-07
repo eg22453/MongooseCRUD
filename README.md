@@ -7,10 +7,12 @@ PUT, POST, DELETE, GET.
 This project was intended to solidify and practice the MVC architecture style as well as the database CRUD operations.
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/8785431/58362731-3143d500-7e60-11e9-9c41-1e4f5b22b8c1.png)
+![image](https://user-images.githubusercontent.com/8785431/62655782-5b1d7b80-b928-11e9-95e9-74cc534cf9ab.png)
+
+![image](https://user-images.githubusercontent.com/8785431/62655832-75eff000-b928-11e9-9486-a8c447351b68.png)
 
 
-![image](https://user-images.githubusercontent.com/8785431/58362770-d5c61700-7e60-11e9-8995-116e4d39c629.png)
+![image](https://user-images.githubusercontent.com/8785431/62656321-894f8b00-b929-11e9-919c-e7a9806dde72.png)
 
 
 ## Tech/framework used
