@@ -13,6 +13,10 @@ router.get('/test', product_controller.test);
 router.get('/:id', product_controller.product_details);
 
 
+//update an entry based on id
+router.put('/:id/update', product_controller.product_update)
+
+
 //post route to create something
 router.post('/create', product_controller.product_create);
 
