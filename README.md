@@ -1,6 +1,7 @@
 # MongooseCRUD
-A basic, barebones CRUD application that demonstrates the use of the Mongoose ODM and the basic HTTP methods including
-PUT, POST, DELETE, GET.
+A basic, barebones CRUD application that demonstrates the use of the Mongoose ORM and the basic HTTP methods including
+PUT, POST, DELETE, GET. Using the Postman web API testing application I was able to show the succesful connection from the 
+cloud based MongoDB database to the routes and endpoints specified.
 
 
 ## Motivation
@@ -21,6 +22,7 @@ This project was intended to solidify and practice the MVC architecture style as
  mongoDB
  Mongoose
  Express.js
+ Postman for Testing Web API's
 
 
 
