@@ -38,3 +38,11 @@ exports.product_update =function(req, res){
             res.send('Product updated');
         });
 }
+
+
+exports.product_delete = function(req, res){
+    Product.findByIdAndRemove(req.params.id, function(err){
+        if (err) return next(err);
+        res.send('Deleted successfully!');
+    })
+}
